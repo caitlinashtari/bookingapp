@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>A fantastical adventure</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Fill in the blanks to write your story!</h1>
+      <div id="blanks">
+        <form>
+          <div class="form-group">
+            <label for="person">Your Name</label>
+            <input id="person" class="form-control" type="text">
+          </div>
+
+          <div class="form-group">
+            <label for="animal">Your Pets Name</label>
+            <input id="animal" class="form-control" type="text">
+          </div>
+
+          <div class="form-group">
+            <label for="verb">Past Tense Verb</label>
+            <input id="verb" class="form-control" type="text">
+          </div>
+
+          <div class="form-group">
+            <label for="place">Dream Vacation</label>
+            <input id="place" class="form-control" type="text">
+          </div>
+
+          <button type="submit" class="btn">Story Time!</button>
+        </form>
+      </div>
+
+      <div id="story">
+        <h1>Story</h1>
+        <p>Once upon a time <span class="person"></span> and <span class="animal"></span> were <span class="verb"></span> through the <span class="place"></span>.</p>
+      </div>
+    </div>
+  </body>
+</html>
