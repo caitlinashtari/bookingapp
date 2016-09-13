@@ -17,9 +17,41 @@
             <input id="person" class="form-control" type="text">
           </div>
 
+          <select class="form-control" id="day">
+            <option>Monday</option>
+            <option>Tuesday</option>
+            <option>Wednesday</option>
+            <option>Thursday</option>
+            <option>Friday</option>
+          </select>
+
           <div class="form-group">
-            <label for="date">Preferred Date</label>
-            <input id="date" class="form-control" type="text">
+            <label for="appointment">Date of appointment</label>
+            <input id="appointment" class="form-control" type="date">
+          </div>
+
+          <div class="radio">
+            <label>
+              <input type="radio" name="service" value="color" checked>
+              Color
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="service" value="cut">
+              Cut
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="service" value="style">
+              Style
+            </label>
+          </div>
+
+          <div class="form-group">
+            <label for "color">Hair color</label>
+            <input id="color" class="form-control" type="color">
           </div>
 
           <div class="form-group">
